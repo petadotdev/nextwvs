@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "allowJs": false,
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "baseUrl": ".",
+    "paths": {
+      "@petadot/auth": ["packages/auth/src/index.ts"],
+      "@petadot/auth/*": ["packages/auth/src/*"],
+      "@petadot/config": ["packages/config/src/index.ts"],
+      "@petadot/config/*": ["packages/config/src/*"],
+      "@petadot/db": ["packages/db/src/index.ts"],
+      "@petadot/db/*": ["packages/db/src/*"],
+      "@petadot/test-utils": ["packages/test-utils/src/index.ts"],
+      "@petadot/test-utils/*": ["packages/test-utils/src/*"],
+      "@petadot/types": ["packages/types/src/index.ts"],
+      "@petadot/types/*": ["packages/types/src/*"],
+      "@petadot/validation": ["packages/validation/src/index.ts"],
+      "@petadot/validation/*": ["packages/validation/src/*"],
+      "@petadot/ui": ["packages/ui/src/index.ts"],
+      "@petadot/ui/*": ["packages/ui/src/*"],
+      "@petadot/integrations": ["packages/integrations/src/index.ts"],
+      "@petadot/integrations/*": ["packages/integrations/src/*"],
+      "@petadot/observability": ["packages/observability/src/index.ts"],
+      "@petadot/observability/*": ["packages/observability/src/*"]
+    }
+  }
+}

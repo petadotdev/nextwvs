@@ -1,0 +1,17 @@
+{
+  "name": "@petadot/integrations",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@petadot/config": "workspace:*",
+    "@petadot/types": "workspace:*",
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}

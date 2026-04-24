@@ -1,0 +1,16 @@
+{
+  "name": "@petadot/db",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json --noEmit"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@petadot/config": "workspace:*",
+    "postgres": "^3.4.5"
+  }
+}
